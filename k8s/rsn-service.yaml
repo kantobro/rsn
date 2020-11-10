@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: rsn
+  name: rsn
+  labels:
+    app: rsn
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: rsn
