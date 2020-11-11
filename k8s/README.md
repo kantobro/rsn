@@ -2,6 +2,8 @@
   # https://minikube.sigs.k8s.io/docs/start/
   # minikube status
 
+# Install kubectl
+  # https://kubernetes.io/docs/tasks/tools/install-kubectl/
 # Create rsn namespace
   # kubectl create ns rsn
 # Deploy rsn app
