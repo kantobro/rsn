@@ -8,7 +8,7 @@
 
 # Login to Docker Hub
 # Tag the image
-  # docker tag rsn-webapp:0.1 <docker-id>/rsn-webapp:0.1
-# Push the image to Docker Hub
   # DOCKERHUBID=<docker-id>
+  # docker tag rsn-webapp:0.1 $DOCKERHUBID/rsn-webapp:0.1
+# Push the image to Docker Hub
   # docker push $DOCKERHUBID/rsn-webapp:0.1
