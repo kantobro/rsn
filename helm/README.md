@@ -20,6 +20,7 @@ Delete old rsn deployment and service
 ```
   kubectl delete deployment rsn -n rsn
   kubectl delete service rsn -n rsn
+```
 Install rsn helm chart
 ```
   helm install helm-rsn rsn/
