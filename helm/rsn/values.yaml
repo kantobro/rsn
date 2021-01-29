@@ -65,5 +65,4 @@ tolerations: []
 
 affinity: {}
 
-metadata:
-  namespace: *{{ .Release.Namespace }}*
+namespace: {}
