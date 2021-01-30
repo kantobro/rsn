@@ -1,4 +1,4 @@
-## How to start with Helm Charts
+# How to start with Helm Charts
 
 Install Helm
   - https://helm.sh/docs/intro/install/
