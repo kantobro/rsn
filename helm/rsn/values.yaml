@@ -6,7 +6,7 @@ replicaCount: 4
 
 image:
   repository: bkantor/rsn-webapp
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 nameOverride: ""
